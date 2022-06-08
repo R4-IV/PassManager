@@ -14,6 +14,7 @@
 		D2001CBB2850FDCC0017CD79 /* PassManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2001CBA2850FDCC0017CD79 /* PassManagerTests.swift */; };
 		D2001CC52850FDCC0017CD79 /* PassManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2001CC42850FDCC0017CD79 /* PassManagerUITests.swift */; };
 		D2001CC72850FDCC0017CD79 /* PassManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2001CC62850FDCC0017CD79 /* PassManagerUITestsLaunchTests.swift */; };
+		D2001CD42850FEA30017CD79 /* Encryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2001CD32850FEA30017CD79 /* Encryptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D2001CC02850FDCC0017CD79 /* PassManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2001CC42850FDCC0017CD79 /* PassManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassManagerUITests.swift; sourceTree = "<group>"; };
 		D2001CC62850FDCC0017CD79 /* PassManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2001CD32850FEA30017CD79 /* Encryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				D2001CAB2850FDC70017CD79 /* ContentView.swift */,
 				D2001CAD2850FDCC0017CD79 /* Assets.xcassets */,
 				D2001CAF2850FDCC0017CD79 /* Preview Content */,
+				D2001CD32850FEA30017CD79 /* Encryptor.swift */,
 			);
 			path = PassManager;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2001CAC2850FDC70017CD79 /* ContentView.swift in Sources */,
+				D2001CD42850FEA30017CD79 /* Encryptor.swift in Sources */,
 				D2001CAA2850FDC70017CD79 /* PassManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
